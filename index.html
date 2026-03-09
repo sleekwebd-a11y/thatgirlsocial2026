@@ -1,103 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>That Girl Social</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">That Girl Social</div>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">tgs.</div>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
-      <li><a href="#why-us">Why Us</a></li>
-      <li><a href="#contact" class="btn-nav">Let's Talk ✨</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <div class="hamburger" id="hamburger">&#9776;</div>
+    <a href="#contact" class="nav-cta">Let's talk ✦</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-content">
-      <p class="hero-tag">Your go-to social media bestie ☁️</p>
-      <h1>Show Up. <span>Stand Out.</span> Grow.</h1>
-      <p class="hero-sub">We help small businesses build dream brands through strategy, content & growth.</p>
-      <a href="#contact" class="btn-primary">Build My Brand ✨</a>
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+    <div class="hero-blob blob3"></div>
+    <div class="hero-inner">
+      <span class="badge">✦ Social Media Agency</span>
+      <h1>Your brand,<br/><em>elevated.</em></h1>
+      <p>We help small businesses show up online with strategy, content, and growth that actually moves the needle.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Start your glow-up →</a>
+        <a href="#services" class="btn-ghost">See what we do</a>
+      </div>
     </div>
-    <div class="hero-graphic">
-      <div class="circle-logo">That Girl Social</div>
+    <div class="hero-card-wrap">
+      <div class="glass-card hero-stat-card">
+        <div class="stat">+240%</div>
+        <div class="stat-label">Average reach growth</div>
+      </div>
+      <div class="glass-card hero-badge-card">
+        <div class="avatar-row">
+          <div class="avatar" style="background:#f9a8c9"></div>
+          <div class="avatar" style="background:#c9a8f9"></div>
+          <div class="avatar" style="background:#a8c9f9"></div>
+        </div>
+        <p>50+ happy clients</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>Strategy ✦</span><span>Content Creation ✦</span><span>Brand Identity ✦</span>
+      <span>Growth ✦</span><span>Community ✦</span><span>Analytics ✦</span>
+      <span>Strategy ✦</span><span>Content Creation ✦</span><span>Brand Identity ✦</span>
+      <span>Growth ✦</span><span>Community ✦</span><span>Analytics ✦</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-label">What we offer</div>
+    <h2>Everything your brand needs<br/>to <em>thrive online</em></h2>
+    <div class="service-grid">
+      <div class="service-item">
+        <div class="service-num">01</div>
+        <h3>Strategy</h3>
+        <p>Custom roadmaps built around your goals, audience, and growth timeline.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-num">02</div>
+        <h3>Content</h3>
+        <p>Reels, graphics, and captions that stop the scroll and start conversations.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-num">03</div>
+        <h3>Growth</h3>
+        <p>Organic growth systems that build a real, engaged audience — no bots.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-num">04</div>
+        <h3>Community</h3>
+        <p>We manage your DMs and comments so your audience always feels heard.</p>
+      </div>
     </div>
   </section>
 
   <!-- ABOUT -->
   <section class="about" id="about">
-    <h2>Hey there, bestie 👋</h2>
-    <p>We're <strong>That Girl Social</strong> — a social media agency on a mission to help small businesses shine online. Whether you're just starting out or ready to level up, we've got your back with strategy, content, and community growth that actually works.</p>
-  </section>
-
-  <!-- SERVICES -->
-  <section class="services" id="services">
-    <h2>What We Do ✨</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="card-icon">📋</div>
-        <h3>Strategy</h3>
-        <p>Custom social media roadmaps tailored to your brand goals and target audience.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🎨</div>
-        <h3>Content Creation</h3>
-        <p>Scroll-stopping graphics, captions, and reels that reflect your vibe and voice.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">📈</div>
-        <h3>Growth</h3>
-        <p>Organic growth tactics to build an engaged community that loves your brand.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">💬</div>
-        <h3>Community Management</h3>
-        <p>We handle your DMs, comments, and engagement so you can focus on your biz.</p>
-      </div>
+    <div class="about-blob"></div>
+    <div class="about-text">
+      <div class="section-label">Who we are</div>
+      <h2>Your go-to social<br/>media <em>bestie</em> ☁️</h2>
+      <p>That Girl Social is a boutique agency for small businesses who want to show up, stand out, and grow. We blend data-driven strategy with aesthetic content to build brands people actually remember.</p>
+      <a href="#contact" class="btn-primary">Work with us →</a>
     </div>
-  </section>
-
-  <!-- WHY US -->
-  <section class="why-us" id="why-us">
-    <h2>Why That Girl Social?</h2>
-    <div class="reasons">
-      <div class="reason"><span>✅</span> Small business specialists</div>
-      <div class="reason"><span>✅</span> Aesthetic, on-brand content</div>
-      <div class="reason"><span>✅</span> Data-driven strategies</div>
-      <div class="reason"><span>✅</span> Real results, real growth</div>
-      <div class="reason"><span>✅</span> Affordable packages</div>
-      <div class="reason"><span>✅</span> You're never just a client — you're a partner</div>
+    <div class="about-pills">
+      <div class="pill">Small biz specialists</div>
+      <div class="pill">Aesthetic content</div>
+      <div class="pill">Real results</div>
+      <div class="pill">Affordable packages</div>
+      <div class="pill">Data-driven</div>
+      <div class="pill">You're our priority</div>
     </div>
   </section>
 
   <!-- CONTACT -->
   <section class="contact" id="contact">
-    <h2>Let's Build Your Dream Brand 💕</h2>
-    <p>Fill out the form below and we'll be in touch within 24 hours!</p>
-    <form id="contact-form">
-      <input type="text" id="name" placeholder="Your Name" required />
-      <input type="email" id="email" placeholder="Your Email" required />
-      <input type="text" id="business" placeholder="Your Business Name" />
-      <textarea id="message" rows="4" placeholder="Tell us about your goals..."></textarea>
-      <button type="submit" class="btn-primary">Send It! ✨</button>
-    </form>
-    <div id="form-success" class="form-success hidden">🎉 Yay! We'll be in touch soon, bestie!</div>
+    <div class="contact-blob"></div>
+    <div class="section-label">Get in touch</div>
+    <h2>Let's build your<br/><em>dream brand</em> ✦</h2>
+    <div class="glass-card contact-card">
+      <form id="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your name" required/>
+          <input type="email" placeholder="Your email" required/>
+        </div>
+        <input type="text" placeholder="Business name"/>
+        <textarea rows="4" placeholder="Tell us about your goals..."></textarea>
+        <button type="submit" class="btn-primary">Send it ✦</button>
+      </form>
+      <div id="form-success" class="form-success hidden">🎉 We'll be in touch soon, bestie!</div>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2026 That Girl Social · Strategy + Content + Growth 💕</p>
-    <p><a href="https://instagram.com/thatgirlsocial2026" target="_blank">@thatgirlsocial2026</a></p>
+    <div class="footer-logo">tgs.</div>
+    <p>Strategy + Content + Growth</p>
+    <a href="https://instagram.com/thatgirlsocial2026" target="_blank">@thatgirlsocial2026</a>
+    <p class="footer-copy">© 2026 That Girl Social</p>
   </footer>
 
   <script src="app.js"></script>
