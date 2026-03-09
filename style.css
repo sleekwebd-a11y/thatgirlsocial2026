@@ -1,30 +1,11 @@
-body { font-family: 'Inter', system_ui, sans-serif; }
-h1 { font-family: 'Space Grotesk', sans-serif; }
-
-.chip {
-  background: linear-gradient(#333, #111);
-  border: 3px solid #eab308;
-  color: white;
-  border-radius: 9999px;
-  font-weight: 700;
-  padding: 12px 0;
-  transition: all 0.2s;
-}
-.chip:active { transform: scale(0.9); }
-
-.card {
-  width: 68px;
-  height: 96px;
-  background: white;
-  color: black;
-  border-radius: 10px;
-  padding: 6px;
-  font-size: 22px;
-  font-weight: 700;
-  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.7);
+body {
+  font-family: 'Inter', system_ui, sans-serif;
 }
 
-.bet-box.active {
-  border: 2px solid #10b981;
-  background: #052e16;
+h1, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
